@@ -55,11 +55,30 @@ A new Landing page has to be created for each option
 								<h1>Network and Information Security Management</h1>
 							</header>
 							<div class="content">
-								<p>Understanding Network Security...<br />
-								Nice one.</p>
+								<p>
+								This module introduces students to the underpinning concepts of Computer Networks<br>
+									and the skills of Information Security Management.
+								</p>
 							</div>
 						</div>
 					</section>
+
+				<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>What is about</h2>
+									</header>
+
+									<ul>
+									<li>Computer Networking and Security Fundamentals</li>
+									<li>What is Information Security Management (ISM)?</li>
+								        <li>The role of the IS Manager: ISM, Networks and Security Model</li>
+                                                                        <li>Logging, auditing, vulnerability and analysis tools</li>
+								        <li>Creating an assessment report and recommendations</li>
+	                                                                <li>Future Internet Architectures and Security Models</li>
+									</ul>
+								</div>
+							</section>
 
 				<!-- Main -->
 					<div id="main">
@@ -70,11 +89,13 @@ A new Landing page has to be created for each option
 									<header class="major">
 										<h2>Learning Outcomes</h2>
 									</header>
-									<p>I will learn:</p>
+									
 									<ul>
-										<li>Dolor etiam magna etiam.</li>
-										<li>Sagittis lorem eleifend.</li>
-										<li>Felis dolore viverra.</li>
+										<li>Security risks and vulnerabilities in IT network systems</li>
+										<li>Researching and applying methodologies, tools and techniques to manage and/or solve them</li>
+										<li>Design and critically appraise computer programs and systems to produce solutions that help manage and audit risk and security issues</li>
+										<li>Gather and synthesise information from multiple sources</li>
+										<li>Articulate the legal, social, ethical and professional issues faced by information security professionals</li>
 									</ul>
 								</div>
 							</section>
@@ -83,7 +104,7 @@ A new Landing page has to be created for each option
 							<section id="two" class="spotlights">
 								<section>
 									<a href="generic2.html" class="image">
-										<img src="images/pic08.jpg" alt="" data-position="center center" />
+										<img src="images/Artefacts.jpg" alt="" data-position="25% 25%" />
 									</a>
 									<div class="content">
 										<div class="inner">
@@ -98,33 +119,97 @@ A new Landing page has to be created for each option
 									</div>
 								</section>
 								<section>
-									<a href="generic2.html" class="image">
-										<img src="images/pic09.jpg" alt="" data-position="top center" />
+									<!-- I deleted the image reference to generic2.html /Spiros -->
+									<a class="image">
+										<img src="images/Reflections.jpg" alt="" data-position="center center" />
 									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
 												<h3>Reflections</h3>
 											</header>
-											<p>What exactly have I learnt and how?</p>
+
+											
+<b>Vulnerability – Threat – Risk</b><br> 
+<br>
+<p>Even though we use the terms threat, risk, and vulnerability in our everyday lives in a more flexible and not so accurate way, as Information Security professionals, we have to understand the terminology and the content they describe more precisely. 
+Hence, we can describe vulnerability as a weakness of a system or a technology, while the threat is the likelihood that this weakness could be exploited and harm our business.<br>
+Finally, the risk is about the possible negative impact (loss) that an incident could have on our organization (Although there are some different opinions).<br>
+An interesting thing to remember is that the risk could never be eliminated, and the objective target is to keep it low to the degree that the company decides to accept it.</p>
+																													
+<b>Business Continuity and Disaster Recovery plan</b><br> 
+<br>
+<p>Business Continuity has been a significant part of risk management for a long time, where organizations try to be prepared for large-scale incidents (earthquakes, floods, fire).<br>
+Since data is a vital asset for almost every industry and due to the reliance on data for succeeding in their targets, it becomes apparent that business continuity has to incorporate also data recovery and protection strategies to defend against cybersecurity threats.<br>
+Having performed the Business Impact Analysis (BIA) to evaluate the risks and the business impact, Recovery Time Objective (RTO) and Recovery Point Objective (RPO) must be set.In other words, objectives regarding the service downtime duration and the quantity of data loss that an organization can tolerate.<br>
+My understanding is that budget, compliance requirements and resources must be considered thoroughly during the designing process. Reviewing and frequently assessing the disaster plan is also a critical factor contributing to the plan's effectiveness.</p>
+
+
+<b>TCP/IP – OSI Model</b><br>
+<br>
+<p>Examining communication functions from the TCP/IP and the OSI model perspective was a fascinating and valuable part of the module. Not only was this a vital networking part of understanding, but it also provides a thoroughgoing and efficient way to understand the different technologies and functions that take part.<br>
+Data flow between the different layers, the encapsulation and de-encapsulation process from the application level down to the physical layer (raw bits stream), constitutes a solid conceptual map that describes the interoperability between diverse communication systems and their protocols.<br>
+Understanding layers' functions and protocols from a cybersecurity perspective is a valuable asset for every security professional. For example, when we face an SQL injection, we focus on layer 7 (Application), whereas we encounter a layer 3 (Network) problem in case of an ICMP attack.<br>
+Despite the undeniable prevalence of the TCP/IP model, I found the OSI model more analytical and comprehensive in understanding the essential network functions.</p>
+
+<b>Scanning task</b><br>
+<br>
+<p>Using Kali Linux and practising some fundamental penetration testing tools was the most intriguing part of the module. In order to deliver the assignment, we had to use a bunch of different tools, starting from basic network commands (PING, WHOIS, TRACEROUTE….) up to vulnerability scanners like OpenVas and Metasploit.<br>
+Through this evolving process, additional sources like Tryhackme and further research had been a valuable ally in getting a more realistic view of the vulnerabilities and cybersecurity terms met so far only in the bibliography.<br>
+For example, ICMP protocol before scanning with TRACEROUTE for revealing the whole route to reach the provided server was just a notion.<br>
+Using this basic command, it became more practical when there were cases between the hops that the result was blank (asterisks), pointing out that the ICMP protocol was disabled for some servers either from the ISP policy or from the company's security department.<br>
+A successful DoS attack was another interesting facet of the scanning process. Using just a line of code to flood the targeted server from random IP requests had succeeded, making the server unreachable while the script was running. This paradigm pointed out the importance of security measures in a very comprehensive and convincing way.</p>
+
+<b>Logging and Forensics</b><br>
+<br>											
+<p>Another captivating subject of the module was the introduction to digital forensics. Although it seems an exciting sector, it is a very demanding and vital part of cyber security, mainly when a breach case is transferred to a court.<br>
+Meticulous and stringent handling is a prerequisite through the forensic stages of acquisition, investigation and reporting due to the digital forensics' field convergence with real-world crime investigation.<br>
+Digital Forensics and Incident Response teams cooperate in evaluating the extension of the incident and the affected assets whilst simultaneously having to seek the appropriate mitigation measures in the shortest period possible.<br>
+Technical skills (i.e. Logging / Malware analysis, system and network understanding) combined with soft skills (i.e. criticality, analytical and communicational skills) are merely some of the most common competencies.<br>
+Searching for evidence in order to identify the attacker is where the logging policy contributes the most. 
+</p>										
+
+<b>Security Standards (differences and similarities)</b><br>
+<br>
+<b>GDPR and PCI-DSS:</b><br>
+<br>							
+<b>Differences</b><br>
+<br>											
+<ul>
+<li>GDPR scope is mainly focused on personal data protection. It puts individuals in charge of their data by giving the appropriate tools to control them (consent, erasure, or withdrawal).PCI's primary purpose is to secure cardholder's data from loss, theft and minimize damages from potential fraud or breaches. In other words, we could say that GDPR is more privacy-oriented whilst PCI is more security-oriented.</li>
+<li>In the same fashion, GDPR set regulations for every possible data process and data storage, PCI on the other hand, it regulates data relevant to the payment process.</li> 
+<li>GDPR protects individuals from unauthorized data usage, while PCI limits and monitors access to card payment information.</li>
+</ul>
+<b>Overlaps</b><br>
+<br>											
+<ul>
+<li>Both standards benefit from data and risk minimization where possible.</li>
+<li>Both standards benefit from regular staff training on security procedures and sensitive data handling.</li> 
+<li>Breaches are perceived in the same way for both standards. A data breach in a cardholder's data also constitutes a GDPR breach.</li> 
+<li>Article 25 of GDPR (Data protection by design and by default) suggests that appropriate technical and organizational measures should be implemented to ensure that the minimum data is kept and that only the authorized users can process the data.
+This directive is also aligned with PCI's 10.6.1 requirement that mandates the daily logs supervisory (system logs, server logs, IPS logs, IDS logs)</li>
+<li>Both standards dictate risk assessment to facilitate business decisions about risks that the organization faces. GDPR article 35 states that organizations should assess every possible risk that could affect every data process that takes part. 
+This prerequisite is also presented in PCI requirement 12.2 (Implement a risk-assessment process).</li> 
+</ul>
 											<ul class="actions">
-												<li><a href="generic2.html" class="button">More Information here</a></li>
+											
 											</ul>
 										</div>
 									</div>
 								</section>
 								<section>
-									<a href="generic2.html" class="image">
-										<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
+									<a href="generic2a.html" class="image">
+										<img src="images/MeetingNotes.jpg" alt="" data-position="25% 25%" />
 									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
 												<h3>Meeting Notes</h3>
 											</header>
-											<p>Notes from various meetings, as well as feedback from team members and tutors.</p>
+											<p>Notes from various meetings...</p>
 											<ul class="actions">
-												<li><a href="generic2.html" class="button">For details, see here</a></li>
+												<li><a href="generic2a.html" class="button next">Learn More</a></li>
+
 											</ul>
 										</div>
 									</div>
@@ -135,87 +220,37 @@ A new Landing page has to be created for each option
 							<section id="three">
 								<div class="inner">
 									<header class="major">
-										<h2>Professional Skills Matrix and Action Plan</h2>
+										<h2>Professional Skills Matrix</h2>
 									</header>
-									<p>What skills have I gained or enhaced as a result of this module and how can I use it?  What else do I need to learn?</p>
+									<p>What skills have I gained or enhanced as a result of this module</p>
 									<ul class="actions">
-										<li><a href="generic2.html" class="button next">Learn More</a></li>
+										<li><a href="generic2b.html" class="button next">Learn More</a></li>
 									</ul>
 								</div>
 							</section>
 
 					</div>
-
-				<!-- Contact -->
-					<section id="contact">
-						<div class="inner">
-							<section>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
+				<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>Feedback from peers and the tutor</h2>
+									</header>
+									<p></p><a href="pdf files/feedback 1.pdf"target="_blank" rel="noopener noreferrer">Compromising a Medical Mannequin post comments</a></p						
+				                                        <p></p><a href="pdf files/Compromising a Medical Mannequin Summary.pdf"target="_blank" rel="noopener noreferrer">Compromising a Medical Mannequin summary</a></p>
+									<br>
+									<p></p><a href="pdf files/feedback 2.pdf"target="_blank" rel="noopener noreferrer">GDPR case study comment</a></p>
+									<b>GDPR case study feedback key points:</b>
+									<ul>
+									<li>GDPR's ambiguity regarding the legitimate interest and the cases that the processing is deemed necessary</li>
+									<li>Transparency's level before getting consent was also a thorny topic in the case study we examined</li>
+									<li>CCTV benefits and restrictions from a GDPR point of view should be examined thoroughly by the organizations before they decide on CCTV's usage</li>
 									</ul>
-								</form>
+								
+					                               
+				                                        </div>
 							</section>
-							<section class="split">
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="#">information@untitled.tld</a>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(000) 000-0000 x12387</span>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-home"></span>
-										<h3>Address</h3>
-										<span>1234 Somewhere Road #5432<br />
-										Nashville, TN 00000<br />
-										United States of America</span>
-									</div>
-								</section>
-							</section>
-						</div>
-					</section>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</footer>
 
-			</div>
 
 		<!-- Scripts -->
 			<script src="js/jquery.min.js"></script>
